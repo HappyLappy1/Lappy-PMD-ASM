@@ -180,7 +180,7 @@
 		mov r3,r7; Item
 		bl DoMoveTerrify;
 		b return;
-	FoeSeal_Orb: ; Softlock????
+	FoeSeal_Orb: ; Works, but the user animation is replayed for each foe! If you want the user animation anyway, uncomment it below!
 		;mov r0, r9
 		;mov r1, #22
 		;mov r2, #1
