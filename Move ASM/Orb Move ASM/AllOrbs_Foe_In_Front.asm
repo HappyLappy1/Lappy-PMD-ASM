@@ -16,8 +16,6 @@
 ;					(Resolve by making One-Shot Orb call One-Shot!)
 ;			- Lob Orb has a 2 tile range! Instead made it have 30% Cringe!
 ;					(Resolve by making Lob Orb call Bloop Slash!)
-; Concerns:	- One-Shot Orb does nothing for some reason!
-;					(Resolve by making One-Shot Orb call One-Shot!)
 ; ------------------------------------------------------------------------------
 
 
@@ -166,7 +164,7 @@
 		mov r3,r7; Item
 		bl DoMoveHurl;
 		b return;
-	OneShot_Orb: ; Does nothing for some reason???
+	OneShot_Orb: ; Works and animates perfectly!
 		mov r0, r9
 		mov r1, #80
 		mov r2, #1
