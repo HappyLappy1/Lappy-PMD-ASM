@@ -1,3 +1,5 @@
+## Orb Moves: How to use
+
 Rocky Orb is included, but it will deal Typeless Damage (It usually deals Rock Type Damage). If you wanna keep the proper typing, you will have to use the usual Rocky Orb Move ID (Which is Rock Tomb) (Meaning you'll have to preserve Rock Tomb) (Although this could be better done by just having the Rock Tomb TM in my personal opinion)
 You don't need to edit the move the Rainy, Sandy, Hail, Sunny, Evasion, Rocky and Snatch Orb call, if you are preserving these move ids (unless you really hate Snatch, then you need this patch)
 If you include Ally Switch in your rom, you don't need to edit the move Switcher Orb calls
