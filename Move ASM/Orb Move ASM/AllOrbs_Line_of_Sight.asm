@@ -87,7 +87,7 @@
 		mov r1, #47
 		mov r2, #1
 		bl PlayEffectAnimationEntity
-		mov r0, r9
+		mov r0, r4
 		mov r1, #48
 		mov r2, #1
 		bl PlayEffectAnimationEntity
